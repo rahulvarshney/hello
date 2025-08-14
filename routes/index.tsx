@@ -19,6 +19,9 @@ export default function Home() {
           <code class="mx-2">./routes/index.tsx</code> file, and refresh.
         </p>
         <Counter count={count} />
+        <form action="https://www.google.com/search">
+          <input name="q" />
+        </form>
       </div>
     </div>
   );
